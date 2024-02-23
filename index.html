@@ -7,9 +7,9 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body class="bg-gray-100 m-56 font-montserrat text-gray-600">
+<body class="bg-gray-100 mx-56 my-12 font-montserrat text-gray-600 grid grid-rows-8 grid-col-3">
     <!--card perso info-->
-    <section class="grid grid-cols-3 bg-white rounded-xl shadow-md gap-12">
+    <section class="grid grid-cols-3 bg-white rounded-xl shadow-md m-3 gap-12 col-span-3">
       <img class="col-span-1 rounded-xl m-6" src="img/profile.jpg" alt="">
       <div class="col-span-2">
         <div class="grid grid-cols-3">
@@ -19,7 +19,7 @@
           </div>
           <div class="p-6 font-semibold text-lg">
             <div class="flex items-center gap-2 mb-2"><span class="material-icons text-gray-600">email</span>h_nehili@estin.dz</div>
-            <div class="flex items-center gap-2 mb-2"><span class="material-icons text-gray-600">phone</span>(+213)780656265</div>
+            <div class="flex items-center gap-2 mb-2"><span class="material-icons text-gray-600">phone</span>(+213)787878787</div>
           </div>
         </div>
         <div class="p-4 grid gap-3">
@@ -33,7 +33,7 @@
       </div>
     </section>
     <!--card skills-->
-    <section class="bg-white rounded-xl shadow-md m-3 p-6">
+    <section class="col-span-1 row-span-1 bg-white rounded-xl shadow-md m-3 p-6">
       <div class="text-lg font-bold py-2">FRONT END</div>
       <div>
         <div class="flex flex-row items-center gap-4">
@@ -56,14 +56,68 @@
           <div class="w-20">Flask</div>
           <div class="bg-gray-300 rounded flex-grow h-2"><div class="bg-blue-500 rounded h-2 w-1/3"></div></div>
         </div>
-        <div class="flex flex-row items-center gap-4">
-          <div class="w-20">FastApi</div>
-          <div class="bg-gray-300 rounded flex-grow h-2"><div class="bg-blue-500 rounded h-2 w-1/3"></div></div>
-        </div>
       </div>
     </section>
+    <!--blog's section-->
+    <section class="col-span-2 row-span-2 bg-white rounded-xl shadow-md p-6 m-3 grid grid-cols-3 grid-rows-3 gap-10">
+      <div>
+        <div class="text-gray-300 col-span-1 row-span-1 mb-4">Blog</div>
+        <div class="text-2xl font-bold mb-4">How to organize your CSS</div>
+      </div>
+      <img class="col-span-2 row-span-2 rounded-3xl h-full object-cover" src="img/blog.jpg" alt="">
+      <div  class="col-span-3">
+        <div class="mb-4">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  </div>
+        <div class="col-span-2 mb-4">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
+        <div class="mb-4">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  </div>
+        <div class="col-span-2 mb-4">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
+        
+        <a class="col-span-2 text-blue-500 font-semibold" href="">dev.to</a>
+      </div>
+    </section>
+    <!--hobbies-->
+    <section class="col-span-1 row-span-2 bg-white rounded-xl shadow-md m-3 p-6">
+      <div class="text-2xl font-semibold pb-6">Hobbies</div>
+      <div class="mb-6">
+        <img class="rounded-xl mb-4 w-full h-52 object-cover" src="img/draw.jpg" alt="">
+        <div class="text-lg font-bold pb-1">Drawing</div>
+        <div>Quisque feugiat malesuada molestie.</div>
+      </div>
+      <div class="mb-6">
+        <img class="rounded-xl mb-4 w-full h-52 object-cover" src="img/plant.jpg" alt="">
+        <div class="text-lg font-bold pb-1">Planting</div>
+        <div>Quisque feugiat malesuada molestie.</div>
+      </div>
+      <div class="mb-6">
+        <img class="rounded-xl mb-4 w-full h-52 object-cover" src="img/walking.jpg" alt="">
+        <div class="text-lg font-bold pb-1">Walking</div>
+        <div>Quisque feugiat malesuada molestie.</div>
+      </div>
+    </section>
+    <!--card's experiences-->
+    <section class="col-span-2 bg-white rounded-xl shadow-md m-3 p-6">
+      <div class="text-2xl font-semibold pb-6">Experiences</div>
+      <div class="grid grid-cols-4 grid-rows-2 mb-6">
+        <div class="col-span-1"><img class="pr-8 p-4" src="img/gdsc.png" alt=""></div>
+        <div class="col-span-3">
+          <div>Feb 2017 - Current</div>
+          <div class="font-bold">Front-end developer</div>
+        </div>
+        <div></div>
+        <div class="col-span-3">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
+      </div>
+      <div class="grid grid-cols-4 grid-rows-2">
+        <div class="col-span-1"><img class="pr-8 p-4" src="img/logo-estin.png" alt=""></div>
+        <div class="col-span-3">
+          <div>Feb 2017 - Current</div>
+          <div class="font-bold">Front-end developer</div>
+        </div>
+        <div></div>
+        <div class="col-span-3">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
+      </div>
+    </section>
+    
     <!--project title-->
-    <section class="bg-white rounded-xl shadow-md m-3 p-6 w-full">
+    <section class="col-span-3 bg-white rounded-xl shadow-md m-3 p-6">
       <div class="text-lg font-bold mb-4">Projects (3)</div>
       <div class="flex items-center">
         <div class="px-4 py-1 border-2 border-gray-500 rounded-xl font-semibold mr-3">tailwind</div>
@@ -73,7 +127,7 @@
       </div>
     </section>
     <!--project list-->
-    <section class="grid grid-cols-3 gap-6">
+    <section class="col-span-3 m-3 grid grid-cols-3 gap-6">
       <div class="bg-white rounded-xl shadow-md p-6">
         <img class="rounded-xl mb-4" src="img/challengesDesigns_EdieHomageThumbnail.jpg" alt="">
         <div class="text-2xl font-semibold mb-4">Edie home page</div>
@@ -102,61 +156,6 @@
         </div>
       </div>
     </section>
-    <!--hobbies-->
-    <section class="bg-white rounded-xl shadow-md m-3 p-6 w-1/3 float-left">
-      <div class="text-2xl font-semibold pb-6">Hobbies</div>
-      <div class="mb-6">
-        <img class="rounded-xl mb-4" src="img/draw.jpg" alt="">
-        <div class="text-lg font-bold pb-1">Drawing</div>
-        <div>Quisque feugiat malesuada molestie.</div>
-      </div>
-      <div class="mb-6">
-        <img class="rounded-xl mb-4" src="img/plant.jpg" alt="">
-        <div class="text-lg font-bold pb-1">Planting</div>
-        <div>Quisque feugiat malesuada molestie.</div>
-      </div>
-      <div class="mb-6">
-        <img class="rounded-xl mb-4" src="img/walking.jpg" alt="">
-        <div class="text-lg font-bold pb-1">Walking</div>
-        <div>Quisque feugiat malesuada molestie.</div>
-      </div>
-    </section>
-    <!--card's experiences-->
-    <section class="bg-white rounded-xl shadow-md m-3 p-6 w-1/2 float-right">
-      <div class="text-2xl font-semibold pb-6">Experiences</div>
-      <div class="grid grid-cols-4 grid-rows-2 mb-6">
-        <div class="col-span-1"><img class="pr-8 p-4" src="img/gdsc.png" alt=""></div>
-        <div class="col-span-3">
-          <div>Feb 2017 - Current</div>
-          <div class="font-bold">Front-end developer</div>
-        </div>
-        <div></div>
-        <div class="col-span-3">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
-      </div>
-      <div class="grid grid-cols-4 grid-rows-2">
-        <div class="col-span-1"><img class="pr-8 p-4" src="img/logo-estin.png" alt=""></div>
-        <div class="col-span-3">
-          <div>Feb 2017 - Current</div>
-          <div class="font-bold">Front-end developer</div>
-        </div>
-        <div></div>
-        <div class="col-span-3">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
-      </div>
-    </section>
-    <!--blog's section-->
-    <section class="bg-white rounded-xl shadow-md w-1/2 p-6 float-right grid grid-cols-3 grid-rows-4 gap-x-10">
-      <div>
-        <div class="text-gray-300 col-span-1 row-span-1 mb-4">Blog</div>
-        <div class="text-2xl font-bold mb-4">How to organize your CSS</div>
-      </div>
-      <img class="col-span-2 row-span-3 rounded-3xl" src="img/blog.jpg" alt="">
-      <div  class="col-span-3">
-        <div class="mb-4">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  </div>
-        <div class="col-span-2 mb-4">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</div>
-        <a class="col-span-2 text-blue-500 font-semibold" href="">dev.to</a>
-      </div>
-    </section>
-    
     
 </body>
 </html>
