@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://uncomplicated-overl.000webhostapp.com">
+    <a href="https://hibounashi.github.io/portfolio-challenge/">
       Demo
     </a>
     <span> | </span>
